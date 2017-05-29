@@ -1,0 +1,8 @@
+.data 
+$lista: .space 200
+
+ .text 
+addi ¬t0,¬zero,0  
+ addi ¬s0,¬zero,0
+ sw ¬s0,$lista(¬t0) 
+ addi ¬t0,¬t0,4 

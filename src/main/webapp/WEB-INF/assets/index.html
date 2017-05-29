@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Lenguaje UTB</title>
+        <link href="lib/bootstrap-3.3.6/css/bootstrap-yeti.min.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="css/styles.css" type="text/css">
+    </head>
+    <body>
+      <div style="position: relative; background: rgb(244, 244, 244); border-bottom: 1px solid rgb(228, 228, 228); height: 60px; text-align: center;"><a class="rmq-fc06c9fe" style="position: absolute;  left: 25px; height: 60px; line-height: 94px;"><img src="..\images\imageUTB.png" alt="utb" class="rmq-a448d85" style="width: 130px; margin-top:-35px;"></a><div style="position: relative; display: inline-block;"><div><div style="display: inline-block; margin-top: 10px; height: 40px; padding: 5px; box-sizing: border-box; cursor: pointer;"><span tabindex="0" style="font-weight: normal; display: inline-block; color: rgb(153, 153, 153); font-size: 130%; text-align: center; font-family: Questrial, sans-serif; cursor: pointer; outline: 0px; line-height: 30px;">UTBLanguage</span></div></div></div></div>
+      <div class="col-lg-12">        
+                
+<div class="options col-md-12">
+    <button class="mar btn btn-default">Upload file <i class="glyphicon glyphicon-open" aria-hidden="true"></i></button>
+    <button class="mar btn btn-default"><a href="codigo_assembler.txt">Assembler code </a><i class="glyphicon glyphicon-save" aria-hidden="true"></i></button>
+    <button class="mar btn btn-success" id="run">Run <i class="glyphicon glyphicon-triangle-right" aria-hidden="true"></i></button>
+    <button class="btn btn-danger pull-right" id="clean">clean output</button>
+
+</div>
+        <div class="wrapper pull-left">
+            <div class="outer">
+                 <div class="row">
+                    <div class="col-sm-12 sp toolbar tab-pane" id="htmPane">
+                        <div class="inner" id="htmEditor"></div>
+                    </div>
+                </div><!--/row-->
+            </div><!--/outer-->
+        </div><!--/wrapper-->
+        <div class="col-md-6 pull-right error" ><p id="Errorlog"></p></div>
+          
+</div>
+      <script src="lib/bootstrap-3.3.6/js/bootstrap.min.js" type="text/javascript"></script>
+       <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+       <script src="../js/editor.js" type="text/javascript"></script>
+    </body>
+</html>

@@ -1,0 +1,11 @@
+nota: Ejemplo de para_cada_uno
+nombre_del_ejercicio $para_cada_uno
+variables
+tipo lista de entero nombre $lista
+fin_variables
+flujo
+agregar a $lista <- 0
+agregar a $lista <- 1
+agregar a $lista <- 2
+
+fin_flujo
